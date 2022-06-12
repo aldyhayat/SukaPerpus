@@ -16,7 +16,7 @@
   <body>
     <!-- NAVBAR -->
     <nav class="nav-wrap">
-      <a href="<?= site_url('Databuku_C/home') ?>" class="nav-left fadeIn first">
+      <a href="<?= site_url('Client_C/home') ?>" class="nav-left fadeIn first">
         <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="80" />
         <p class="nav-brand-text">SukaPerpus</p>
       </a>
@@ -108,7 +108,7 @@
 
     <!-- BOTTOM MENU -->
     <div class="nav-nonresponsive flex-between">
-      <a href="<?= site_url('Databuku_C/home') ?>" class="nav-nonresponsive-con fadeIn first">
+      <a href="<?= site_url('Client_C/home') ?>" class="nav-nonresponsive-con fadeIn first">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-smart-home" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
           <path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" />
@@ -116,7 +116,7 @@
         </svg>
         <p>Home</p>
       </a>
-      <a href="<?= site_url('Databuku_C/about') ?>" class="nav-nonresponsive-con fadeIn second">
+      <a href="<?= site_url('Client_C/about') ?>" class="nav-nonresponsive-con fadeIn second">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
           <circle cx="12" cy="12" r="9" />
@@ -125,7 +125,7 @@
         </svg>
         <p>About</p>
       </a>
-      <a href="<?= site_url('Databuku_C/books') ?>" class="nav-nonresponsive-con fadeIn third">
+      <a href="<?= site_url('Client_C/books') ?>" class="nav-nonresponsive-con fadeIn third">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
           <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
@@ -135,15 +135,6 @@
           <line x1="21" y1="6" x2="21" y2="19" />
         </svg>
         <p>Books</p>
-      </a>
-      <a href="<?= site_url('Databuku_C/profile') ?>" class="nav-nonresponsive-con fadeIn fourth ">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <circle cx="12" cy="12" r="9" />
-          <circle cx="12" cy="10" r="3" />
-          <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
-        </svg>
-      <p>Profile</p>
       </a>
     </div>
     <!-- BOTTOM MENU -->
