@@ -18,23 +18,17 @@
     <nav class="nav-wrap">
       <a href="<?= site_url('Databuku_C/home') ?>" class="nav-left fadeIn first">
         <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="80" />
-        <p class="nav-brand-text">Aprodhite Library</p>
+        <p class="nav-brand-text">SukaPerpus</p>
       </a>
 
       <div class="nav-center nav-responsive fadeIn second">
-      <a href="<?= site_url('Client_C/home') ?>" class="nav-menu nav-margin">Home</a>
-        <a href="<?= site_url('Client_C/about') ?>" class="nav-menu nav-margin">About</a>
-        <a href="<?= site_url('Client_C/books') ?>" class="nav-menu nav-margin">Books</a>
-        <a href="<?= site_url('Auth_C/login') ?>" class="nav-menu nav-margin">Login</a>
+      <a href="<?= site_url('Client_C/home') ?>" class="nav-menu nav-margin">Beranda</a>
+        <a href="<?= site_url('Client_C/about') ?>" class="nav-menu nav-margin">Tentang</a>
+        <a href="<?= site_url('Client_C/books') ?>" class="nav-menu nav-margin">Buku</a>
+        <a href="<?= site_url('Auth_C/login') ?>" class="nav-menu nav-margin">Masuk</a>
       </div>
 
-      <div class="nav-right nav-responsive fadeIn third">
-        <img
-          class="nav-avatar"
-          src="https://avatars.dicebear.com/api/human/2.svg"
-        />
-        <a href="<?= site_url('Databuku_C/profile') ?>" class="nav-menu">Profile</a>
-      </div>
+      
     </nav>
     <!-- NAVBAR -->
     <br />
@@ -46,7 +40,7 @@
     <!-- VISSION AND MISSION -->
     <span class="about-header fadeInDown flex-column-center">
       <img src="<?php echo base_url();?>/assets/client/images/Logo.png" width="30%" />
-      <h1>Tentang Aprodhite</h1>
+      <h1>Tentang SukaPerpus</h1>
     </span>
 
     <br />
@@ -167,7 +161,7 @@
         <div class="w100 flex-between footer-container">
           <a href="home.html" class="footer-left">
             <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="90" height="65" />
-            <p class="nav-brand-text">Aprodhite Library</p>
+            <p class="nav-brand-text">SukaPerpus</p>
           </a>
 
 
@@ -194,7 +188,7 @@
             </a>
           </div>
         </div>
-      <div class="footer-bot">© 2020 Aprodhite. All rights reserved.</div>
+      <div class="footer-bot">© 2020 SukaPerpus. All rights reserved.</div>
     </div>
     <!-- FOOTER -->
 
