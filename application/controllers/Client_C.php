@@ -43,5 +43,6 @@ class Client_C extends CI_Controller{
         $data['data_buku'] = $this->Databuku_model->getAll();
         $this->load->view('front_end/client/profile');
     }
+    
 }
     ?>

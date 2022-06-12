@@ -23,8 +23,12 @@
 }
 
 .staff-img {
-	width: 200px;
-	height: 269px;
+	width: 100%;
+	min-width: 230px;
+	max-width: 250px;
+	height: 270px;
+	border-radius: 20px;
+	object-fit: cover;
 	background-position: center;
 	object-fit: cover;
 }

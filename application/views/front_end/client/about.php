@@ -50,22 +50,48 @@
     <br />
     <span class="about-vimi-wrap flex-column-center w100 fadeIn third">
       <div class="about-vimi">
-        <h3 class="font-judul">Visi dan Misi</h3>
+        <h1 class="font-judul">Visi dan Misi</h1>
 
         <p style="text-align: center">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          deserunt veritatis natus obcaecati minima eum libero perferendis,
-          minus dolores, blanditiis, qui optio esse nihil quaerat. Debitis,
-          veritatis voluptatibus. Illo, itaque! Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem culpa quas error, eligendi
-          facere repellendus accusamus eum eaque ab, reiciendis, fugiat eius.
-          Deleniti architecto eius voluptate dolorem, culpa alias esse.
+          <h3>Visi</h3>
+          <ul>
+            <li><font size ="4">Menjadikan Perpustakaan tempat menggali potensi diri melalui membaca dan sarana rekreasi.</font> </li>
+            <li><font size ="4">Terdepan dalam akses informasi dan ilmu pengetahuan melalui masyarakat cerdas.</font> </li>
+            <li><font size ="4">Terwujudnya masyarakat maju, cerdas dan terampil melalui membaca</font></li>
+          </ul>
+          <br>
+          <h3>Misi</h3>
+          <ul>
+            <li><font size ="4">Menciptakan dan mengembangkan kebiasaan membaca pada masyarakat.</font></li>
+            <li><font size ="4">Pemerataan memperoleh informasi bagi seluruh lapisan masyarakat.</font></li>
+            <li><font size ="4">Mengoptimalkan perpustakaan sebagai akses informasi yang Up To Date</font></li>
+          </ul>
         </p>
       </div>
     </span>
     <br />
     <br />
     <br />
+    <span class="about-vimi-wrap flex-column-center w100 fadeIn third">
+      <div class="about-vimi">
+        <h1 class="font-judul">Tugas dan Fungsi</h1>
+
+        <p style="text-align: center">
+          <h3>Tugas</h3>
+          <font size ="4">Perpustakaan melaksanakan tugas merencanakan, mengelola dan mengkoordinasikan kegiatan-kegiatan yang bertujuan menyediakan informasi dan pengetahuan global berbasis teknologi informasi.</font>
+          <br>
+          <h3>Fungsi</h3>
+          <ul>
+            <li><font size ="4">Perencanaan, pemantauan, pengendalian dan pelaksanaan layanan perpustakaan.</font></li>
+            <li><font size ="4">Pembinaan dan pengembangan tenaga pustakawan.</font></li>
+            <li><font size ="4">Perencanaan, pemantauan, pengendalian dan pelaksanaan pembaruan pustaka</font></li>
+          </ul>
+        </p>
+      </div>
+    </span>
+    <br>
+    <br>
+    <br>
 
     <!-- STAFF CONTAINER -->
     <div class="about-staff-wrap w100 flex-column-center">
@@ -77,33 +103,33 @@
       <div class="about-staff flex-wrap flex-center-center">
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/aldo.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Raynaldi sahid inayat</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/jose.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Jose Enrico Markus Napitupulu</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/aldy.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Raynaldi Sahid Hayat</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/fitrah.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Muhammad Fitrah Khairil Akmal</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/nataniel.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Nataniel Blesyova</p>
         </div>
       </div>
     </div>
@@ -117,35 +143,22 @@
     <!-- ABOUT SECTION -->
     <div class="about-sejarah-wrap flex-column-center w100">
       <div class="about-sejarah flex-column-center">
-        <h3 class="font-judul">Sejarah Perpustakaan</h3>
-
+        <h3 class="font-judul">Latar Belakang</h3>
+        <font size ="4">Perpustakaan merupakan kumpulan bahan informasi yang terdiri dari buku dan non-buku yang disusun dengan system tertentu, 
+        perpustakaan menjadi tempat menampung berbagai macam ilmu pengetahuan dan informasi penting bagi masyarakat, 
+        terkadang ditemukan berbagai masalah dalam perpustakaan dengan system manual, 
+        seperti penyimpanan data buku yang tidak terstruktur  maka dibutuhkan sebuah system pengelolaan dan fasilitas yang memadai untuk menjaga kualitas pelayanan perpustakaan itu sendiri. 
+        Namun dengan adanya website perpustakaan memiliki system yang menyediakan fasilitas penelusuran koleksi buku, 
+        pendaftaran anggota, pemesanan pinjaman dan penyediaan informasi lain seputar perpustakaan dan isinya bagi pengguna melalui website perpustakaan. 
+        Berdasarkan  penguraian diatas maka website Suka Perpus dibuat untuk mengatasi masalah dan mempermudah staff dalam pengelolaan data.</font>
         <br />
         <p style="text-align: left">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          deserunt veritatis natus obcaecati minima eum libero perferendis,
-          minus dolores, blanditiis, qui optio esse nihil quaerat. Debitis,
-          veritatis voluptatibus. Illo, itaque! Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem culpa quas error, eligendi
-          facere repellendus accusamus eum eaque ab, reiciendis, fugiat eius.
-          Deleniti architecto eius voluptate dolorem, culpa alias esse. Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit. Magnam amet
-          commodi alias similique dicta, neque minus at totam tempora architecto
-          cum corporis adipisci, ducimus ad, quas dolore excepturi harum ut?
+          
         </p>
         <br />
         <br />
         <p style="text-align: right">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          deserunt veritatis natus obcaecati minima eum libero perferendis,
-          minus dolores, blanditiis, qui optio esse nihil quaerat. Debitis,
-          veritatis voluptatibus. Illo, itaque! Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem culpa quas error, eligendi
-          facere repellendus accusamus eum eaque ab, reiciendis, fugiat eius.
-          Deleniti architecto eius voluptate dolorem, culpa alias esse. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-          reprehenderit libero reiciendis ad nobis laboriosam id sed quibusdam
-          architecto ducimus ut accusantium? Officiis, ut esse deserunt quas
-          enim adipisci quasi?
+          
         </p>
       </div>
     </div>
