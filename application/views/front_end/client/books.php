@@ -68,7 +68,7 @@
         <!-- CARD BUKU -->
                   <?php foreach($data_buku as $data) :  ?>
 
-        <div class="card-book">
+        <div class="card-book" >
           <img
             src="<?php echo base_url();?>/assets/client/images/Logo.png"
             alt=""
@@ -82,7 +82,8 @@
             <h3 style="font-size: 20px" ><?= $data->nama_buku ?></h3>
             <p class="card-book-judul">Deskripsi :</p>
 
-            <p class="card-book-desc">
+            <p style="height: 150px; overflow: hidden;
+text-overflow: ellipsis; width: 100%; max-width: 300px;">
             <?= $data->deskripsi ?>
             </p>
           </div>

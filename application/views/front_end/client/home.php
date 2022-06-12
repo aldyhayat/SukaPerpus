@@ -86,44 +86,37 @@
     <br />
     <br />
 
-    <h3 class="font-judul" style="margin-left: 10%">Genre</h3>
+    <!-- <h3 class="font-judul" style="margin-left: 10%">Genre</h3>
 
     <div class="w100 home-genre">
-    <!-- GENRE CARD -->
 
       <div class="genre-card flex-center-center" style="background-image: url('https://images.unsplash.com/photo-1494403687614-8ca3e13f154f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');">
         <p class="genre-card-p ">Romance</p>
       </div>
-    <!-- GENRE CARD -->
 
       <div class="genre-card flex-center-center" style="background-image: url('https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1759&q=80');">
         <p class="genre-card-p ">Action</p>
       </div>
-    <!-- GENRE CARD -->
 
       <div class="genre-card flex-center-center" style="background-image: url('https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');">
         <p class="genre-card-p ">Adventure</p>
       </div>
-    <!-- GENRE CARD -->
 
         <div class="genre-card flex-center-center" style="background-image: url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&q=80');">
           <p class="genre-card-p ">Mystery</p>
         </div>
-    <!-- GENRE CARD -->
         <div class="genre-card flex-center-center" style="background-image: url('https://images.unsplash.com/photo-1516780236580-ef416334d5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=796&q=80');">
           <p class="genre-card-p ">Fantasy</p>
         </div>
-    <!-- GENRE CARD -->
-    </div>
+    </div> -->
   <br />
   <br />
   <br />
   <br />
   <br />
-
+<!-- 
     <h3 class="font-judul" style="margin-left: 10%">Buku Favorit</h3>
     <div class="home-favorit-book flex w100">
-      <!-- CARD -->
       <div class="card-fav">
         <img src="<?php echo base_url();?>/assets/client/images/Logo.png" width="120px" height="90px" alt="" />
         <div class="flex-column-center">
@@ -142,7 +135,6 @@
           <button class="button fadeIn fourth w100">BACA</button>
         </div>
       </div>
-      <!-- CARD -->
       <div class="card-fav">
         <img src="<?php echo base_url();?>/assets/client/images/Logo.png" width="120px" height="90px" alt="" />
         <div class="flex-column-center">
@@ -161,7 +153,6 @@
           <button class="button fadeIn fourth w100">BACA</button>
         </div>
       </div>
-      <!-- CARD -->
 
       <div class="card-fav">
         <img src="<?php echo base_url();?>/assets/client/images/Logo.png" width="120px" height="90px" alt="" />
@@ -181,8 +172,7 @@
           <button class="button fadeIn fourth w100">BACA</button>
         </div>
       </div>
-      <!-- CARD -->
-    </div>
+    </div> -->
     <br />
     <br />
     <br />

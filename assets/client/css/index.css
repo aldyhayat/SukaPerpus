@@ -310,7 +310,6 @@ body {
 	align-items: center;
 	width: 100%;
 	max-width: 400px;
-	height: 900px;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 	gap: 30px;
@@ -334,12 +333,6 @@ body {
 	width: 100px;
 	margin-bottom: 10px;
 	font-size: 18px;
-}
-
-.card-book-desc {
-	white-space: nowrap;
-	overflow: hidden;
-	width: 100%;
 }
 
 .genre-card {
