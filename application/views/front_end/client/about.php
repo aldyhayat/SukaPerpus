@@ -28,7 +28,9 @@
         <a href="<?= site_url('Auth_C/login') ?>" class="nav-menu nav-margin">Masuk</a>
       </div>
 
-      
+      <div class="nav-right">
+          <!--  -->
+      </div>
     </nav>
     <!-- NAVBAR -->
     <br />
