@@ -149,6 +149,7 @@
                                                     <th>Genre</th>
                                                     <th>Tahun</th>
                                                     <th>Deskripsi</th>
+                                                    <th>Links</th>
                                                 </tr>
                                            
                                          
@@ -160,6 +161,7 @@
                                                     <td><?= $data->genre ?></td>
                                                     <td><?= $data->tahun ?></td>
                                                     <td><?= $data->deskripsi ?></td>
+                                                    <td><?= $data->links ?></td>
                                                     
                                                     <td>
                                                     <a type="submit" class="btn btn-primary" href="<?php echo base_url();?>Databuku_C/edit/<?= $data->id;?>">Edit Data Buku</a>

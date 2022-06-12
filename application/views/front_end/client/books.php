@@ -57,15 +57,8 @@
     <br />
     <br />
     <div class="book-pinjam-head w100">
-      <h3 class="font-judul">Buku apa yang ingin Anda pinjam hari ini ?</h3>
-      <div class="book-search flex-start-center">
-        <span class="material-icons"> search </span>
-        <input
-          type="text"
-          placeholder="Cari Buku Anda Disini"
-          class="input-search"
-        />
-      </div>
+      <h3 class="font-judul">Buku apa yang ingin lihat hari ini ?</h3>
+      
     </div>
     <br />
     <br />
@@ -76,6 +69,8 @@
     <div class="book-wrap flex-center-center w100">
       <div class="book-container w100" style="gap: 20px">
         <!-- CARD BUKU -->
+                  <?php foreach($data_buku as $data) :  ?>
+
         <div class="card-book">
           <img
             src="<?php echo base_url();?>/assets/client/images/Logo.png"
@@ -86,7 +81,6 @@
           <br />
           <br />
           <div class="card-book-container">
-          <?php foreach($data_buku as $data) :  ?>
             <h3 style="font-size: 25px" ><?= $data->nama_buku ?></h3>
             <p class="card-book-judul">Deskripsi :</p>
 
@@ -95,162 +89,13 @@
             </p>
           </div>
           <div class="flex-between w100">
-            <a href="<?= site_url('Client_C/detail') ?>">
+            <a href="<?= $data->links ?>">
               <button class="button-primary">Pinjam Sekarang</button>
             </a>
           </div>
          
         </div>
         <?php endforeach ?>
-        <div class="card-book">
-          <img
-            src="<?php echo base_url();?>/assets/client/images/Logo.png"
-            alt=""
-            class="card-book-img"
-            width="230"
-          />
-          <br />
-          <br />
-          <div class="card-book-container">
-            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
-            <p class="card-book-judul">Deskripsi :</p>
-
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
-              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
-              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
-              delectus ut velit, hic, labore ipsa maxime minus minima dicta
-              repudiandae porro repellendus rerum saepe repellat debitis odit?
-            </p>
-          </div>
-          <div class="flex-between w100">
-            <a href="<?= site_url('Databuku_C/detail') ?>">
-              <button class="button-primary">Pinjam Sekarang</button>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-book">
-          <img
-            src="<?php echo base_url();?>/assets/client/images/Logo.png"
-            alt=""
-            class="card-book-img"
-            width="230"
-          />
-          <br />
-          <br />
-          <div class="card-book-container">
-            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
-            <p class="card-book-judul">Deskripsi :</p>
-
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
-              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
-              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
-              delectus ut velit, hic, labore ipsa maxime minus minima dicta
-              repudiandae porro repellendus rerum saepe repellat debitis odit?
-            </p>
-          </div>
-          <div class="flex-between w100">
-            <a href="<?= site_url('Databuku_C/detail') ?>">
-              <button class="button-primary">Pinjam Sekarang</button>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-book">
-          <img
-            src="<?php echo base_url();?>/assets/client/images/Logo.png"
-            alt=""
-            class="card-book-img"
-            width="230"
-          />
-          <br />
-          <br />
-          <div class="card-book-container">
-            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
-            <p class="card-book-judul">Deskripsi :</p>
-
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
-              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
-              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
-              delectus ut velit, hic, labore ipsa maxime minus minima dicta
-              repudiandae porro repellendus rerum saepe repellat debitis odit?
-            </p>
-          </div>
-          <div class="flex-between w100">
-            <a href="<?= site_url('Databuku_C/detail') ?>">
-              <button class="button-primary">Pinjam Sekarang</button>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-book">
-          <img
-            src="<?php echo base_url();?>/assets/client/images/Logo.png"
-            alt=""
-            class="card-book-img"
-            width="230"
-          />
-          <br />
-          <br />
-          <div class="card-book-container">
-            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
-            <p class="card-book-judul">Deskripsi :</p>
-
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
-              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
-              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
-              delectus ut velit, hic, labore ipsa maxime minus minima dicta
-              repudiandae porro repellendus rerum saepe repellat debitis odit?
-            </p>
-          </div>
-          <div class="flex-between w100">
-            <a href="<?= site_url('Databuku_C/detail') ?>">
-              <button class="button-primary">Pinjam Sekarang</button>
-            </a>
-          </div>
-        </div>
-
-        <div class="card-book">
-          <img
-            src="<?php echo base_url();?>/assets/client/images/Logo.png"
-            alt=""
-            class="card-book-img"
-            width="230"
-          />
-          <br />
-          <br />
-          <div class="card-book-container">
-            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
-            <p class="card-book-judul">Deskripsi :</p>
-
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
-              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
-              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
-              delectus ut velit, hic, labore ipsa maxime minus minima dicta
-              repudiandae porro repellendus rerum saepe repellat debitis odit?
-            </p>
-          </div>
-          <div class="flex-between w100">
-            <a href="<?= site_url('Databuku_C/detail') ?>">
-              <button class="button-primary">Pinjam Sekarang</button>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
     <br />

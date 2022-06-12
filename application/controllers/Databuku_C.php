@@ -31,6 +31,7 @@ class Databuku_C extends CI_Controller{
         $genre = implode(',', $genres);
         $tahun_buku = $this->input->post('tahun');
         $deskripsi = $this->input->post('deskripsi');
+        $links = $this->input->post('links');
 
         $data = array(
             'nama_buku' => $nama_buku,
@@ -38,6 +39,8 @@ class Databuku_C extends CI_Controller{
             'genre' => $genre,
             'tahun' => $tahun_buku,
             'deskripsi' => $deskripsi,
+            'links' => $links,
+            
         );
         $this->Databuku_model->tambahDataBuku($data);
         redirect(base_url('Databuku_C/index'));

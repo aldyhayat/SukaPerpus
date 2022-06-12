@@ -18,7 +18,7 @@
     <nav class="nav-wrap">
       <a href="<?= site_url('Databuku_C/home') ?>" class="nav-left fadeIn first">
         <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="80" />
-        <p class="nav-brand-text">Aprodhite Library</p>
+        <p class="nav-brand-text">Suka Perpus</p>
       </a>
 
       <div class="nav-center nav-responsive fadeIn second">
@@ -46,7 +46,7 @@
     <!-- VISSION AND MISSION -->
     <span class="about-header fadeInDown flex-column-center">
       <img src="<?php echo base_url();?>/assets/client/images/Logo.png" width="30%" />
-      <h1>Tentang Aprodhite</h1>
+      <h1>Tentang SukaPerpus</h1>
     </span>
 
     <br />
@@ -57,13 +57,19 @@
         <h3 class="font-judul">Visi dan Misi</h3>
 
         <p style="text-align: center">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          deserunt veritatis natus obcaecati minima eum libero perferendis,
-          minus dolores, blanditiis, qui optio esse nihil quaerat. Debitis,
-          veritatis voluptatibus. Illo, itaque! Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem culpa quas error, eligendi
-          facere repellendus accusamus eum eaque ab, reiciendis, fugiat eius.
-          Deleniti architecto eius voluptate dolorem, culpa alias esse.
+          Visi Perpustakaan:
+
+          Visi merupakan pandangan mengenai masa depan yang dianggap ideal untuk dicapai. Suwarno (2011: 18) menyebutkan bahwa visi perpustakaan pada umumnya untuk mewujudkan masyarakat informasi atau masyarakat yang cerdas. Untuk perpustakaan sekolah memiliki visi secara umum menciptakan lulusan dan tamatan yang beriman dan bertakwa kepada Tuhan Yang Maha Esa, berbudi luhur, berakhlak mulia, cerdas, serta menguasai ilmu pengetahuan dan teknologi sebagai aset bangsa dan negara.
+          <p>Misi Perpustakaan:
+
+            Sebuah Misi harus dijabarkan dalam misi. Misi merupakan penjabaran dari misi yang berupa langkah-langkah atau kegiatan yang ditempuh untuk mewujudkan dan melaksanakan visi. Suwarno (2011: 19) menjabarkan bahwa misi perpustakaan secara umum adalah sebagai berikut:
+
+            Menciptakan dan memantapkan kebiasaan membaca masyarakat sesuai dengan jenis perpustakaan dan pemakainya
+            Mendukung pendidikan perorangan secara mandiri maupun pendidikan formal pada semua jenjang
+            Memberikan kesempatan atau stimulasi bagi pengembangan kreativitas dan imajinasi pribadi maupun masyarakat
+            Meningkatkan kesadaran terhadap warisan budaya, apresiasi seni, dan hasil temuan ilmiah
+            Menyediakan akses pada ekspresi-ekspresi kebudayaan dan perubahan
+            Mendorong dialog antar umat beragama oleh karena keaneka ragaman budaya</p>
         </p>
       </div>
     </span>
@@ -83,7 +89,7 @@
           <div class="staff-foto flex-column-center">
             <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Raynaldi sahid inayat</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
@@ -95,19 +101,19 @@
           <div class="staff-foto flex-column-center">
             <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Jose Enrico Markus Napitupulu</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
             <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>Nataniel Blesyova</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
             <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
           </div>
-          <p>Akhmad Aldo Sari</p>
+          <p>M.fitrah khairil akmal</p>
         </div>
       </div>
     </div>
@@ -125,31 +131,13 @@
 
         <br />
         <p style="text-align: left">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          deserunt veritatis natus obcaecati minima eum libero perferendis,
-          minus dolores, blanditiis, qui optio esse nihil quaerat. Debitis,
-          veritatis voluptatibus. Illo, itaque! Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem culpa quas error, eligendi
-          facere repellendus accusamus eum eaque ab, reiciendis, fugiat eius.
-          Deleniti architecto eius voluptate dolorem, culpa alias esse. Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit. Magnam amet
-          commodi alias similique dicta, neque minus at totam tempora architecto
-          cum corporis adipisci, ducimus ad, quas dolore excepturi harum ut?
+          Perpustakaan pertama di Indonesia yang tercatat adalah sebuah perpustakaan gereja di Batavia yang sesungguhnya telah dirintis sejak tahun 1624 namun akibat berbagai kendala baru diresmikan pada 27 April 1643, bersamaan dengan pengangkatan pendeta Ds (Dominus) Abraham Fierenius sebagai kepalanya.<p>Pada masa itu layanan peminjaman buku yang diselenggarakan perpustakaan gereja Batavia tersebut tidak hanya dibuka untuk perawat rumah sakit Batavia, namun juga untuk pemakai yang berada di semarang dan Juana. Setelah itu tidak terdapat catatan tentang keberadaan perpustakaan di Indonesia untuk waktu yang cukup lama.</p><p>
+          
         </p>
         <br />
         <br />
         <p style="text-align: right">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          deserunt veritatis natus obcaecati minima eum libero perferendis,
-          minus dolores, blanditiis, qui optio esse nihil quaerat. Debitis,
-          veritatis voluptatibus. Illo, itaque! Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem culpa quas error, eligendi
-          facere repellendus accusamus eum eaque ab, reiciendis, fugiat eius.
-          Deleniti architecto eius voluptate dolorem, culpa alias esse. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-          reprehenderit libero reiciendis ad nobis laboriosam id sed quibusdam
-          architecto ducimus ut accusantium? Officiis, ut esse deserunt quas
-          enim adipisci quasi?
+          Perpustakaan di Indonesia yang tercatat keberadaannya setelah itu adalah perpustakaan milik Bataviaasch Genootschap van Kunsten en Wetenschappen. Perpustakaan ini didirikan pada 24 April 1778, semasa Vereenigde Oost-Indische Compagnie (VOC). Bataviaasch Genootschap van Kunsten en Wetenschappen berdiri atas prakarsa Mr J.C.M. Rademaker, ketua Raad van Indie. Organisasi tersebut mengandalkan sumbangan dermawan serta bantuan keuangan dari Raad van Indie.<p>
         </p>
       </div>
     </div>
@@ -167,7 +155,7 @@
         <div class="w100 flex-between footer-container">
           <a href="home.html" class="footer-left">
             <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="90" height="65" />
-            <p class="nav-brand-text">Aprodhite Library</p>
+            <p class="nav-brand-text">Suka Perpus</p>
           </a>
 
 

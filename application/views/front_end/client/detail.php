@@ -18,7 +18,7 @@
     <nav class="nav-wrap">
       <a href="<?= site_url('Databuku_C/home') ?>" class="nav-left fadeIn first">
         <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="80" />
-        <p class="nav-brand-text">Aprodhite Library</p>
+        <p class="nav-brand-text">SukaPerpus</p>
       </a>
 
       <div class="nav-center nav-responsive fadeIn second">
