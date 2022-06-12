@@ -1,0 +1,53 @@
+.detail-wrap {
+  padding: 20px 10%;
+  display: flex;
+  width: 100%;
+  gap: 90px;
+  height: 100%;
+  min-height: 70vh;
+}
+
+.detail-left {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.detail-right {
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 600px;
+  gap: 30px;
+}
+
+.params {
+  line-height: 0.1px;
+}
+
+.detail-info-book {
+  width: 150px;
+}
+
+.detail-desc {
+  width: 80%;
+}
+
+.unlink {
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+}
+
+@media only screen and (max-width: 800px) {
+  .detail-wrap {
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .detail-left {
+    align-items: center;
+    justify-content: center;
+  }
+}

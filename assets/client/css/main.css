@@ -1,0 +1,245 @@
+.navbar {
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 40px;
+	background-color: #00e1ff;
+	position: sticky;
+	top: 0;
+	left: 0;
+	font-size: 2.9rem;
+	z-index: 100;
+}
+
+.brand {
+	font-family: "Pompiere";
+}
+
+.menuIcon {
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.modalMenu {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	z-index: 200;
+}
+
+.closeIcon {
+	color: rgb(0, 217, 255);
+	font-size: 2rem;
+	position: absolute;
+	top: 15vh;
+	right: 10%;
+}
+
+.closeIcon:hover {
+	color: orangered;
+	cursor: pointer;
+}
+
+.modalMenu a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2rem;
+}
+
+.modalMenu a:hover {
+	color: rgb(0, 225, 255);
+	font-size: 2.2rem;
+}
+
+.container {
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+}
+.container section {
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Home {
+	flex-direction: column;
+	justify-content: flex-start;
+	/* background-image: url(https://picsum.photos/seed/41/900); */
+	background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home_content {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	height: 100%;
+	width: 100%;
+	margin-bottom: auto;
+}
+
+.homeImage {
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
+	object-position: bottom;
+	border-radius: 20px 20px 10px 200px;
+	border: 8px solid rgb(0, 217, 255);
+	animation-name: topToBottom;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+.homeText {
+	font-family: "Staatliches";
+	font-size: 4rem;
+	color: rgb(0, 204, 255);
+	animation-name: topToBottom;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.About {
+	display: grid !important;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+		"box1   box2"
+		"box3   box4";
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+}
+
+.about_box1 {
+	grid-template: box1;
+	font-family: "Yanone";
+}
+
+.about_box2 {
+	grid-template: box2;
+	background-image: url(./walpaper2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 0 0 0 90px;
+}
+
+.about_box3 {
+	grid-template: box3;
+	background-image: url(./walpaper2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 0 90px 0 0;
+}
+
+.about_box4 {
+	grid-template: box4;
+	font-family: "Yanone";
+}
+
+.aboutIcon {
+	font-size: 4rem;
+	color: rgba(0, 0, 0, 0.5);
+	position: center;
+}
+
+.Contact {
+	background-image: url(./Aa0001.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.Showcase {
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+	font-family: "Staatliches";
+	color: rgb(0, 3, 153);
+}
+
+.Showcase_title {
+	font-size: 3rem;
+}
+
+.wrapper_Showcase {
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding: 40px 40px;
+}
+
+.wrapper_Showcase img {
+	transition-duration: 0.5s;
+	border-radius: 30px;
+}
+.wrapper_Showcase img:hover {
+	border-radius: 200px;
+}
+
+.rotateIcon {
+	font-size: 4rem;
+	color: rgb(0, 217, 255);
+	animation-name: rotate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.alertAbout {
+	width: 100vw;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	color: white;
+	position: sticky;
+	top: 10vh;
+	z-index: 80;
+	margin-bottom: auto;
+}
+
+@keyframes topToBottom {
+	from {
+		transform: translateY(20vh);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0vh);
+		opacity: 1;
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

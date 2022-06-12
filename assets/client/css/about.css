@@ -1,0 +1,45 @@
+.about-header {
+	width: 100vw;
+	margin-top: 40px;
+}
+
+.about-vimi {
+	width: 70%;
+}
+
+.about-staff {
+	gap: 20px;
+}
+
+.staff-foto {
+	background-color: rgba(0, 255, 255, 0.3);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	min-width: 230px;
+	max-width: 250px;
+	height: 270px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.staff-img {
+	width: 200px;
+	height: 269px;
+	background-position: center;
+	object-fit: cover;
+}
+
+.about-sejarah {
+	width: 70%;
+}
+
+@keyframes topToBottom {
+	from {
+		transform: translateY(20vh);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0vh);
+		opacity: 1;
+	}
+}
