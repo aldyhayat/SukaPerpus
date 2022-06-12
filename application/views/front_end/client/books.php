@@ -18,23 +18,17 @@
     <nav class="nav-wrap">
       <a href="<?= site_url('Databuku_C/home') ?>"" class="nav-left fadeIn first">
         <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="80" />
-        <p class="nav-brand-text">Aprodhite Library</p>
+        <p class="nav-brand-text">SukaPerpus</p>
       </a>
 
       <div class="nav-center nav-responsive fadeIn second">
-      <a href="<?= site_url('Client_C/home') ?>" class="nav-menu nav-margin">Home</a>
-        <a href="<?= site_url('Client_C/about') ?>" class="nav-menu nav-margin">About</a>
-        <a href="<?= site_url('Client_C/books') ?>" class="nav-menu nav-margin">Books</a>
-        <a href="<?= site_url('Auth_C/login') ?>" class="nav-menu nav-margin">Login</a>
+      <a href="<?= site_url('Client_C/home') ?>" class="nav-menu nav-margin">Beranda</a>
+        <a href="<?= site_url('Client_C/about') ?>" class="nav-menu nav-margin">Tentang</a>
+        <a href="<?= site_url('Client_C/books') ?>" class="nav-menu nav-margin">Buku</a>
+        <a href="<?= site_url('Auth_C/login') ?>" class="nav-menu nav-margin">Masuk</a>
       </div>
 
-      <div class="nav-right nav-responsive fadeIn third">
-        <img
-          class="nav-avatar"
-          src="https://avatars.dicebear.com/api/human/2.svg"
-        />
-        <a href="<?= site_url('Databuku_C/profile') ?>" class="nav-menu">Profile</a>
-      </div>
+      
     </nav>
     <!-- NAVBAR -->
     <br />
@@ -49,8 +43,8 @@
       <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" class="book-header-img" alt="" />
       <p class="font-judul" style="text-align: center">
         Inverstasi yang paling menguntungkan itu Improve skill mu, Dengan
-        belajar dan praktik di Aprodhite Library. Semua Gratis Khusus untuk
-        Mahasiswa Aprodhite
+        belajar dan praktik di SukaPerpus. Semua Gratis Khusus untuk
+        Mahasiswa SukaPerpus
       </p>
     </div>
     <br />
@@ -89,13 +83,170 @@
             </p>
           </div>
           <div class="flex-between w100">
+<<<<<<< HEAD
             <a href="<?= $data->links ?>">
               <button class="button-primary">Pinjam Sekarang</button>
+=======
+            <a href="<?= site_url('Client_C/detail') ?>">
+              <button class="button-primary">Lihat Buku</button>
+>>>>>>> f137a0b572dc9f5238f74f2a144d4df7f924e680
             </a>
           </div>
          
         </div>
         <?php endforeach ?>
+<<<<<<< HEAD
+=======
+        <div class="card-book">
+          <img
+            src="<?php echo base_url();?>/assets/client/images/Logo.png"
+            alt=""
+            class="card-book-img"
+            width="230"
+          />
+          <br />
+          <br />
+          <div class="card-book-container">
+            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
+            <p class="card-book-judul">Deskripsi :</p>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
+              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
+              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
+              delectus ut velit, hic, labore ipsa maxime minus minima dicta
+              repudiandae porro repellendus rerum saepe repellat debitis odit?
+            </p>
+          </div>
+          <div class="flex-between w100">
+            <a href="<?= site_url('Databuku_C/detail') ?>">
+              <button class="button-primary">Lihat Buku</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-book">
+          <img
+            src="<?php echo base_url();?>/assets/client/images/Logo.png"
+            alt=""
+            class="card-book-img"
+            width="230"
+          />
+          <br />
+          <br />
+          <div class="card-book-container">
+            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
+            <p class="card-book-judul">Deskripsi :</p>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
+              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
+              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
+              delectus ut velit, hic, labore ipsa maxime minus minima dicta
+              repudiandae porro repellendus rerum saepe repellat debitis odit?
+            </p>
+          </div>
+          <div class="flex-between w100">
+            <a href="<?= site_url('Databuku_C/detail') ?>">
+              <button class="button-primary">Lihat Buku</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-book">
+          <img
+            src="<?php echo base_url();?>/assets/client/images/Logo.png"
+            alt=""
+            class="card-book-img"
+            width="230"
+          />
+          <br />
+          <br />
+          <div class="card-book-container">
+            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
+            <p class="card-book-judul">Deskripsi :</p>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
+              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
+              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
+              delectus ut velit, hic, labore ipsa maxime minus minima dicta
+              repudiandae porro repellendus rerum saepe repellat debitis odit?
+            </p>
+          </div>
+          <div class="flex-between w100">
+            <a href="<?= site_url('Databuku_C/detail') ?>">
+              <button class="button-primary">Lihat Buku</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-book">
+          <img
+            src="<?php echo base_url();?>/assets/client/images/Logo.png"
+            alt=""
+            class="card-book-img"
+            width="230"
+          />
+          <br />
+          <br />
+          <div class="card-book-container">
+            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
+            <p class="card-book-judul">Deskripsi :</p>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
+              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
+              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
+              delectus ut velit, hic, labore ipsa maxime minus minima dicta
+              repudiandae porro repellendus rerum saepe repellat debitis odit?
+            </p>
+          </div>
+          <div class="flex-between w100">
+            <a href="<?= site_url('Databuku_C/detail') ?>">
+              <button class="button-primary">Lihat Buku</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-book">
+          <img
+            src="<?php echo base_url();?>/assets/client/images/Logo.png"
+            alt=""
+            class="card-book-img"
+            width="230"
+          />
+          <br />
+          <br />
+          <div class="card-book-container">
+            <h3 style="font-size: 25px" >Sarjana Kertas</h3>
+            <p class="card-book-judul">Deskripsi :</p>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus accusantium obcaecati ex quam impedit amet itaque
+              soluta, numquam, iste praesentium aspernatur. Vel cum velit magnam
+              earum optio laboriosam, quae explicabo! Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Iure culpa laboriosam illo
+              delectus ut velit, hic, labore ipsa maxime minus minima dicta
+              repudiandae porro repellendus rerum saepe repellat debitis odit?
+            </p>
+          </div>
+          <div class="flex-between w100">
+            <a href="<?= site_url('Databuku_C/detail') ?>">
+              <button class="button-primary">Lihat Buku</button>
+            </a>
+          </div>
+        </div>
+>>>>>>> f137a0b572dc9f5238f74f2a144d4df7f924e680
       </div>
     </div>
     <br />
@@ -113,7 +264,7 @@
         <div class="w100 flex-between footer-container">
           <a href="home.html" class="footer-left">
             <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="90" height="65" />
-            <p class="nav-brand-text">Aprodhite Library</p>
+            <p class="nav-brand-text">SukaPerpus Library</p>
           </a>
 
 
@@ -140,7 +291,7 @@
             </a>
           </div>
         </div>
-      <div class="footer-bot">© 2020 Aprodhite. All rights reserved.</div>
+      <div class="footer-bot">© 2020 SukaPerpus. All rights reserved.</div>
     </div>
     <!-- FOOTER -->
 

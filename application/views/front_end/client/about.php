@@ -18,23 +18,17 @@
     <nav class="nav-wrap">
       <a href="<?= site_url('Databuku_C/home') ?>" class="nav-left fadeIn first">
         <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="80" />
-        <p class="nav-brand-text">Suka Perpus</p>
+        <p class="nav-brand-text">SukaPerpus</p>
       </a>
 
       <div class="nav-center nav-responsive fadeIn second">
-      <a href="<?= site_url('Client_C/home') ?>" class="nav-menu nav-margin">Home</a>
-        <a href="<?= site_url('Client_C/about') ?>" class="nav-menu nav-margin">About</a>
-        <a href="<?= site_url('Client_C/books') ?>" class="nav-menu nav-margin">Books</a>
-        <a href="<?= site_url('Auth_C/login') ?>" class="nav-menu nav-margin">Login</a>
+      <a href="<?= site_url('Client_C/home') ?>" class="nav-menu nav-margin">Beranda</a>
+        <a href="<?= site_url('Client_C/about') ?>" class="nav-menu nav-margin">Tentang</a>
+        <a href="<?= site_url('Client_C/books') ?>" class="nav-menu nav-margin">Buku</a>
+        <a href="<?= site_url('Auth_C/login') ?>" class="nav-menu nav-margin">Masuk</a>
       </div>
 
-      <div class="nav-right nav-responsive fadeIn third">
-        <img
-          class="nav-avatar"
-          src="https://avatars.dicebear.com/api/human/2.svg"
-        />
-        <a href="<?= site_url('Databuku_C/profile') ?>" class="nav-menu">Profile</a>
-      </div>
+      
     </nav>
     <!-- NAVBAR -->
     <br />
@@ -54,28 +48,48 @@
     <br />
     <span class="about-vimi-wrap flex-column-center w100 fadeIn third">
       <div class="about-vimi">
-        <h3 class="font-judul">Visi dan Misi</h3>
+        <h1 class="font-judul">Visi dan Misi</h1>
 
         <p style="text-align: center">
-          Visi Perpustakaan:
-
-          Visi merupakan pandangan mengenai masa depan yang dianggap ideal untuk dicapai. Suwarno (2011: 18) menyebutkan bahwa visi perpustakaan pada umumnya untuk mewujudkan masyarakat informasi atau masyarakat yang cerdas. Untuk perpustakaan sekolah memiliki visi secara umum menciptakan lulusan dan tamatan yang beriman dan bertakwa kepada Tuhan Yang Maha Esa, berbudi luhur, berakhlak mulia, cerdas, serta menguasai ilmu pengetahuan dan teknologi sebagai aset bangsa dan negara.
-          <p>Misi Perpustakaan:
-
-            Sebuah Misi harus dijabarkan dalam misi. Misi merupakan penjabaran dari misi yang berupa langkah-langkah atau kegiatan yang ditempuh untuk mewujudkan dan melaksanakan visi. Suwarno (2011: 19) menjabarkan bahwa misi perpustakaan secara umum adalah sebagai berikut:
-
-            Menciptakan dan memantapkan kebiasaan membaca masyarakat sesuai dengan jenis perpustakaan dan pemakainya
-            Mendukung pendidikan perorangan secara mandiri maupun pendidikan formal pada semua jenjang
-            Memberikan kesempatan atau stimulasi bagi pengembangan kreativitas dan imajinasi pribadi maupun masyarakat
-            Meningkatkan kesadaran terhadap warisan budaya, apresiasi seni, dan hasil temuan ilmiah
-            Menyediakan akses pada ekspresi-ekspresi kebudayaan dan perubahan
-            Mendorong dialog antar umat beragama oleh karena keaneka ragaman budaya</p>
+          <h3>Visi</h3>
+          <ul>
+            <li><font size ="4">Menjadikan Perpustakaan tempat menggali potensi diri melalui membaca dan sarana rekreasi.</font> </li>
+            <li><font size ="4">Terdepan dalam akses informasi dan ilmu pengetahuan melalui masyarakat cerdas.</font> </li>
+            <li><font size ="4">Terwujudnya masyarakat maju, cerdas dan terampil melalui membaca</font></li>
+          </ul>
+          <br>
+          <h3>Misi</h3>
+          <ul>
+            <li><font size ="4">Menciptakan dan mengembangkan kebiasaan membaca pada masyarakat.</font></li>
+            <li><font size ="4">Pemerataan memperoleh informasi bagi seluruh lapisan masyarakat.</font></li>
+            <li><font size ="4">Mengoptimalkan perpustakaan sebagai akses informasi yang Up To Date</font></li>
+          </ul>
         </p>
       </div>
     </span>
     <br />
     <br />
     <br />
+    <span class="about-vimi-wrap flex-column-center w100 fadeIn third">
+      <div class="about-vimi">
+        <h1 class="font-judul">Tugas dan Fungsi</h1>
+
+        <p style="text-align: center">
+          <h3>Tugas</h3>
+          <font size ="4">Perpustakaan melaksanakan tugas merencanakan, mengelola dan mengkoordinasikan kegiatan-kegiatan yang bertujuan menyediakan informasi dan pengetahuan global berbasis teknologi informasi.</font>
+          <br>
+          <h3>Fungsi</h3>
+          <ul>
+            <li><font size ="4">Perencanaan, pemantauan, pengendalian dan pelaksanaan layanan perpustakaan.</font></li>
+            <li><font size ="4">Pembinaan dan pengembangan tenaga pustakawan.</font></li>
+            <li><font size ="4">Perencanaan, pemantauan, pengendalian dan pelaksanaan pembaruan pustaka</font></li>
+          </ul>
+        </p>
+      </div>
+    </span>
+    <br>
+    <br>
+    <br>
 
     <!-- STAFF CONTAINER -->
     <div class="about-staff-wrap w100 flex-column-center">
@@ -87,33 +101,33 @@
       <div class="about-staff flex-wrap flex-center-center">
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/aldo.png" alt="" class="staff-img" />
           </div>
           <p>Raynaldi sahid inayat</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
-          </div>
-          <p>Akhmad Aldo Sari</p>
-        </div>
-        <div class="staff-foto-wrap flex-column-center">
-          <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/jose.png" alt="" class="staff-img" />
           </div>
           <p>Jose Enrico Markus Napitupulu</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/aldy.png" alt="" class="staff-img" />
           </div>
-          <p>Nataniel Blesyova</p>
+          <p>Raynaldi Sahid Hayat</p>
         </div>
         <div class="staff-foto-wrap flex-column-center">
           <div class="staff-foto flex-column-center">
-            <img src="<?php echo base_url();?>/assets/client/images/brick.png" alt="" class="staff-img" />
+            <img src="<?php echo base_url();?>/assets/client/images/fitrah.png" alt="" class="staff-img" />
           </div>
-          <p>M.fitrah khairil akmal</p>
+          <p>Muhammad Fitrah Khairil Akmal</p>
+        </div>
+        <div class="staff-foto-wrap flex-column-center">
+          <div class="staff-foto flex-column-center">
+            <img src="<?php echo base_url();?>/assets/client/images/nataniel.png" alt="" class="staff-img" />
+          </div>
+          <p>Nataniel Blesyova</p>
         </div>
       </div>
     </div>
@@ -127,17 +141,22 @@
     <!-- ABOUT SECTION -->
     <div class="about-sejarah-wrap flex-column-center w100">
       <div class="about-sejarah flex-column-center">
-        <h3 class="font-judul">Sejarah Perpustakaan</h3>
-
+        <h3 class="font-judul">Latar Belakang</h3>
+        <font size ="4">Perpustakaan merupakan kumpulan bahan informasi yang terdiri dari buku dan non-buku yang disusun dengan system tertentu, 
+        perpustakaan menjadi tempat menampung berbagai macam ilmu pengetahuan dan informasi penting bagi masyarakat, 
+        terkadang ditemukan berbagai masalah dalam perpustakaan dengan system manual, 
+        seperti penyimpanan data buku yang tidak terstruktur  maka dibutuhkan sebuah system pengelolaan dan fasilitas yang memadai untuk menjaga kualitas pelayanan perpustakaan itu sendiri. 
+        Namun dengan adanya website perpustakaan memiliki system yang menyediakan fasilitas penelusuran koleksi buku, 
+        pendaftaran anggota, pemesanan pinjaman dan penyediaan informasi lain seputar perpustakaan dan isinya bagi pengguna melalui website perpustakaan. 
+        Berdasarkan  penguraian diatas maka website Suka Perpus dibuat untuk mengatasi masalah dan mempermudah staff dalam pengelolaan data.</font>
         <br />
         <p style="text-align: left">
-          Perpustakaan pertama di Indonesia yang tercatat adalah sebuah perpustakaan gereja di Batavia yang sesungguhnya telah dirintis sejak tahun 1624 namun akibat berbagai kendala baru diresmikan pada 27 April 1643, bersamaan dengan pengangkatan pendeta Ds (Dominus) Abraham Fierenius sebagai kepalanya.<p>Pada masa itu layanan peminjaman buku yang diselenggarakan perpustakaan gereja Batavia tersebut tidak hanya dibuka untuk perawat rumah sakit Batavia, namun juga untuk pemakai yang berada di semarang dan Juana. Setelah itu tidak terdapat catatan tentang keberadaan perpustakaan di Indonesia untuk waktu yang cukup lama.</p><p>
           
         </p>
         <br />
         <br />
         <p style="text-align: right">
-          Perpustakaan di Indonesia yang tercatat keberadaannya setelah itu adalah perpustakaan milik Bataviaasch Genootschap van Kunsten en Wetenschappen. Perpustakaan ini didirikan pada 24 April 1778, semasa Vereenigde Oost-Indische Compagnie (VOC). Bataviaasch Genootschap van Kunsten en Wetenschappen berdiri atas prakarsa Mr J.C.M. Rademaker, ketua Raad van Indie. Organisasi tersebut mengandalkan sumbangan dermawan serta bantuan keuangan dari Raad van Indie.<p>
+          
         </p>
       </div>
     </div>
@@ -155,7 +174,7 @@
         <div class="w100 flex-between footer-container">
           <a href="home.html" class="footer-left">
             <img src="<?php echo base_url();?>/assets/client/images/Logo (1).png" width="90" height="65" />
-            <p class="nav-brand-text">Suka Perpus</p>
+            <p class="nav-brand-text">SukaPerpus</p>
           </a>
 
 
@@ -182,7 +201,7 @@
             </a>
           </div>
         </div>
-      <div class="footer-bot">© 2020 Aprodhite. All rights reserved.</div>
+      <div class="footer-bot">© 2020 SukaPerpus. All rights reserved.</div>
     </div>
     <!-- FOOTER -->
 
